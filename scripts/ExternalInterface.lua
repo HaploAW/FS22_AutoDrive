@@ -321,7 +321,7 @@ function AutoDrive:StartCP(startCP_Vehicle)
         startCP_Vehicle.cpDelayWait = false
         startCP_Vehicle.cpDelayCompleted = false
         startCP_Vehicle:cpStartStopDriver()
-        startCP_Vehicle.ad.stateModule:setStartCP_AIVE(true)
+        -- startCP_Vehicle.ad.stateModule:setStartCP_AIVE(true)
     end
 end
 
